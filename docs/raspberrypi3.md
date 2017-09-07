@@ -27,7 +27,7 @@ node -v
 
 ##### Configure npm NODE_PATH variable
 ```
-echo "export NODE_PATH=/usr/lib/node_modules" | tee -a
+echo "export NODE_PATH=/usr/lib/node_modules" | tee -a /etc/profile
 source /etc/profile > /dev/null
 echo $NODE_PATH
 ```
